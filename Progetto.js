@@ -1,11 +1,6 @@
-function invertiStringa(stringa) {
-    // Dividi la stringa in un array di caratteri, inverti l'array e quindi uniscilo nuovamente in una stringa.
-    return stringa.split('').reverse().join('');
-}
+const reverseString = (string) => string.split('').reverse().join('');
 
-// Esempio di utilizzo:
-const stringaInvertita = invertiStringa("ciao - o ciao mamma");
-console.log(stringaInvertita); // Output: "ammam o - oaic"
+console.log(reverseString('Floridia'));
 
 
 
