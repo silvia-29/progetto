@@ -31,8 +31,3 @@ function sommaArray(array) {
     const somma = array.reduce((acc, numero) => acc + numero, 0);
     return somma;
 }
-
-// Esempio di utilizzo:
-const numeri = [1, 2, 3, 4, 5];
-const risultatoSomma = sommaArray(numeri);
-console.log(risultatoSomma); // Output: 15
