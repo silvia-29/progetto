@@ -9,6 +9,6 @@ function contaPariDispari(array) {
         dispari++;
       }
     }
-  
+  //test
     return { pari, dispari };
   }
