@@ -20,14 +20,6 @@ console.log(quantitaNumeriPari); // Output: 4
 
 
 
-
-function sommaArray(array) {
-    // Usa il metodo `reduce` per sommare tutti gli elementi dell'array partendo da 0.
-    const somma = array.reduce((acc, numero) => acc + numero, 0);
-    return somma;
-}
-
-// Esempio di utilizzo:
-const numeri = [1, 2, 3, 4, 5];
-const risultatoSomma = sommaArray(numeri);
-console.log(risultatoSomma); // Output: 15
+const arr2 = [1, 2, 3, 4, 5];
+const sommaArray = arr => arr.reduce((acc, numero) => acc + numero, 0);
+console.log(sommaArray(arr2));
