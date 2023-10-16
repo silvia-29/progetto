@@ -1,2 +1,0 @@
-# progetto
-start progetto
